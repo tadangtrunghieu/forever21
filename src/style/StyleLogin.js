@@ -1,0 +1,71 @@
+import {StyleSheet} from 'react-native';
+const stylesLogin = StyleSheet.create({
+    container:{
+        flex:1,
+        flexDirection:'column',
+    },
+    header:{
+        flexDirection:'row',
+        justifyContent:'space-between',
+        borderBottomWidth:1,
+        borderBottomColor:'#d3d3d3',
+        marginTop:30,
+    },
+    titleHeader:{
+        fontSize:20,
+        fontWeight:'bold',
+        marginLeft:170,
+        alignSelf:'center',
+    },
+    footer:{
+        backgroundColor:'#dcdcdc',
+        paddingHorizontal:20,
+        paddingVertical:20,
+        marginTop:120,
+    },
+    info:{
+        marginTop:40,
+    },
+    infoChild:{
+        marginHorizontal:30,
+        marginVertical:10,
+    },
+    buttonSignIn:{
+        marginTop:30,
+    },
+    buttonSignInChild:{
+        backgroundColor:'yellow',
+        marginHorizontal:30,
+        paddingVertical:15,
+    },
+    textSignIn:{
+        textAlign:'center',
+        fontSize: 18,
+        fontWeight:'bold',
+    },
+    node:{
+        alignItems:'center',
+        paddingVertical:30,
+        borderBottomWidth:1,
+        borderBottomColor:'#d3d3d3',
+        marginHorizontal:20,    
+    },
+    textNode:{
+        textDecorationLine:'underline',
+        fontSize:14,
+        fontWeight:'bold',
+        color:'grey',
+    },
+    node1:{
+        alignItems:'center',
+        marginVertical:30,
+    },
+    textNode1:{
+        textDecorationLine:'underline',
+        fontWeight:'bold',
+        fontSize:14,
+        color:'black',
+    },
+    
+});
+export default stylesLogin;

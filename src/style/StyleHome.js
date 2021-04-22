@@ -1,0 +1,75 @@
+import {StyleSheet} from 'react-native'
+
+const stylesHome = StyleSheet.create({
+    container:{
+        flex:1,
+        flexDirection:'column',
+    },
+    header:{
+        flexDirection:'column',
+    },
+    titleHeader:{
+        flexDirection:'row',
+        marginHorizontal:10,
+        marginVertical:10,
+        
+    },
+    titleHeaderChild:{
+        alignSelf:'center', 
+    },
+    textTitle:{
+        marginHorizontal:120,
+        fontSize:22,
+        fontWeight:'bold',
+    },
+    searchHeader:{
+        flexDirection:'row',
+        backgroundColor:'#ededed',
+    },
+    searchHeaderChild:{
+        flexDirection:'row',
+        paddingVertical:7,
+    },
+    searchHeaderChild1:{
+        flexDirection:'row',
+        paddingLeft:10,
+        paddingRight:260,
+    },
+    textSearch:{
+        fontSize:16,
+    },
+    voiceBarcodeHeader:{
+        flexDirection:'row',
+        alignSelf:'center',
+    },
+    barcodeHeader:{
+        marginHorizontal:15,
+    },
+    content:{
+        flexDirection:'column',
+        flex:1,
+        height:3000,
+    },
+    titleContent:{
+       marginVertical:20,
+       alignSelf:'center',
+    },
+    textTitleContent:{
+        textDecorationLine:'underline',
+        color:'grey',
+        fontSize:15,
+        fontWeight:'bold',
+        
+    },
+    footer:{
+        flexDirection:'row',
+        borderTopWidth:1,
+        borderTopColor:'gray',
+    },
+    iconFooter:{
+        marginHorizontal:35,
+        marginVertical:8,
+        alignItems:'center',
+    },
+});
+export default stylesHome;

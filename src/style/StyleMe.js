@@ -1,0 +1,71 @@
+import { StyleSheet } from 'react-native'
+const stylesMe = StyleSheet.create({
+    container:{
+        flex:1,
+        flexDirection:'column',
+    },
+    header:{
+        flexDirection:'row',
+        marginVertical:15,
+        marginHorizontal:20,        
+    },
+    titleHeader:{
+        marginLeft:40,
+        fontSize:22,
+        fontWeight:'bold',
+    },
+    content:{
+        flex:1,
+        flexDirection:'column',
+        backgroundColor:'#e3e3e3',
+    },
+    titleContent:{
+        textAlign:'center',
+        fontSize:16,
+        fontWeight:'bold',
+        marginVertical:10,
+    },
+    selectChild:{
+        flexDirection:'column',
+    },
+    selectContentChild:{
+        flexDirection:'row',
+        paddingVertical:20,
+        justifyContent:'space-between',
+        borderBottomWidth:1,
+        borderBottomColor:'#dedede',       
+    },
+    titleSelect:{
+        fontSize:17,
+    },
+    textSelect:{
+        color:"gray"
+    },
+    footer:{
+        flexDirection:'row',
+        borderTopWidth:1,
+        borderTopColor:'gray',
+        
+    },
+    iconFooter:{
+        marginHorizontal:35,
+        marginVertical:8,
+        alignItems:'center',
+    },
+    signOut:{
+        backgroundColor:'white',
+        marginVertical:30,
+        marginHorizontal:10,
+        borderWidth:2,
+        borderColor:'gray',
+    },
+    textSignOut:{
+        textAlign:'center',
+        paddingVertical:15,
+        fontSize:18,
+        fontWeight:'bold',
+    },
+    
+});
+
+export default stylesMe;
