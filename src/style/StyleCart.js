@@ -1,5 +1,4 @@
 import { StyleSheet} from 'react-native'
-
 const stylesCart = StyleSheet.create({
     container:{
         flex:1,

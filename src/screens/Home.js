@@ -5,6 +5,7 @@ import Ionicons from "react-native-vector-icons/Ionicons";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import DataHome from '../data/DataHome';
 
+
 export default function Home({ navigation }) {
     const renderItem = ({ item }) => (
         <View style={{ width:'100%' }}>

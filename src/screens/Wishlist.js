@@ -5,7 +5,6 @@ import Ionicons from "react-native-vector-icons/Ionicons";
 import DataWishlist from '../data/DataWishlist';
 
 export default function Wishlist() {
-    
     const renderItem = ({ item }) => (
             <View style={stylesWishlist.imgContent}>
                     {/* <TouchableOpacity>         */}

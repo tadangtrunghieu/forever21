@@ -1,5 +1,4 @@
 import { StyleSheet} from 'react-native'
-
 const stylesWishlist = StyleSheet.create({
     container:{
         flex:1,

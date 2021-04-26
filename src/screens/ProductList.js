@@ -4,7 +4,6 @@ import Ionicons from "react-native-vector-icons/Ionicons";
 import axios from 'axios'
 import {getProduct} from '../services/Api'
 import { getImage } from '../services/getImage';
-
 export default function ProductList({ navigation }) {
 
     const[product, setProduct] = useState()
