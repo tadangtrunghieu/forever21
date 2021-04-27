@@ -20,8 +20,8 @@ function HomeStack() {
   return (
     <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={Home} options={{headerShown: false}}/>
-        <Stack.Screen name="ProductList" component={ProductList} />
-        <Stack.Screen name="Detail" component={Detail} />
+        <Stack.Screen name="ProductList" component={ProductList} options={{ title: "Women's Best Sellers ", headerTitleStyle: {fontSize: 22, fontWeight:'bold', marginLeft:50}}}/>
+        <Stack.Screen name="Detail" component={Detail} options={{ title: "FOREVER 21 ",headerTitleStyle: {fontSize: 22, fontWeight:'bold', marginLeft:85},}}/>
       </Stack.Navigator>
   );
 }

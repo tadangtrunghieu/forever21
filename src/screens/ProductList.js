@@ -18,7 +18,9 @@ export default function ProductList({ navigation }) {
     
     const renderItem = ({ item }) => (
     <View style={{ width: "45%" }}>
-      <Image style={{height: 300,width: "auto"}} source={{uri:getImage(item?.images?.[0])}} />
+      <TouchableOpacity onPress={() => navigation.navigate('Detail', { name: 'Forever21' })}>
+        <Image style={{height: 300,width: "auto"}} source={{uri:getImage(item?.images?.[0])}} />
+      </TouchableOpacity>
       <View style={{flexDirection: "row",justifyContent: "space-between",marginTop: 10}}>
         <Text>{item.price}</Text>
         <Ionicons name="heart-outline" size={30} color='black' />

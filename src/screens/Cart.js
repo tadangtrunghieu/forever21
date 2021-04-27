@@ -60,6 +60,7 @@ export default function Wishlist() {
             </View>
             
             <View style={stylesCart.content}>
+                
                 <FlatList
                 data={DataCart}
                 renderItem={renderItem}

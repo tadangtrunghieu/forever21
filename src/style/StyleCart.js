@@ -32,7 +32,7 @@ const stylesCart = StyleSheet.create({
     content:{
         flex:1,
         flexDirection:'column',
-        height:600,
+        height:1000,
     },
     imgContent:{
         marginLeft:15,

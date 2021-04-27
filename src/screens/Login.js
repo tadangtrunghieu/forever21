@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { ScrollView, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import stylesLogin from '../style/StyleLogin';
 import Ionicons from "react-native-vector-icons/Ionicons";
