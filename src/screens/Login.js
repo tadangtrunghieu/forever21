@@ -20,7 +20,9 @@ export default function Login () {
                             <TextInput style={{borderWidth:1, borderColor:'gray'}}></TextInput>
                         </View>
                         <View style={stylesLogin.infoChild}>
-                            <Text style={{fontWeight:'bold', fontSize:15, color:'gray'}}>PASSWORD</Text>
+                            <Text style={{fontWeight:'bold', fontSize:15, color:'gray'}}>
+                                
+                            </Text>
                             <TextInput style={{borderWidth:1, borderColor:'gray'}}></TextInput>
                         </View>
                         <View style={stylesLogin.buttonSignIn}>

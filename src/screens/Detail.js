@@ -3,7 +3,6 @@ import { View, Text, Image, ScrollView, TouchableOpacity } from 'react-native'
 import Ionicons from "react-native-vector-icons/Ionicons";
 import SimpleLineIcons from "react-native-vector-icons/SimpleLineIcons";
 import AntDesign from "react-native-vector-icons/AntDesign";
-import FontAwesome from "react-native-vector-icons/FontAwesome";
 import stylesDetail from '../style/StyleDetail';
 
 export default function Detail() {
@@ -53,7 +52,7 @@ export default function Detail() {
             </ScrollView>
                 <View style={stylesDetail.footer}>
                     <TouchableOpacity style={stylesDetail.colorFooter}>
-                        <FontAwesome name="circle-thin" size={40} color='black'/>
+                        <Ionicons name="radio-button-off" size={40} color='black'/>
                         <Text style={stylesDetail.colorCartFooter}>WHITE/BLUE</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={stylesDetail.cartFooter}>

@@ -22,7 +22,7 @@ export default function ProductList({ navigation }) {
         <Image style={{height: 300,width: "auto"}} source={{uri:getImage(item?.images?.[0])}} />
       </TouchableOpacity>
       <View style={{flexDirection: "row",justifyContent: "space-between",marginTop: 10}}>
-        <Text>{item.price}</Text>
+        <Text>{item.price}đ</Text>
         <Ionicons name="heart-outline" size={30} color='black' />
       </View>
       <Text>{item.name}</Text>
